@@ -1,0 +1,13 @@
+.transicion{
+    transition: all 1s;
+}
+
+.transicion:hover {
+    width:420px;
+    height: 500px;
+border: solid 10px #bb4721;   
+}
+.escalar{
+    transform: scale(1,1);
+ }
+ 
