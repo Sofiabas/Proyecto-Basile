@@ -1,0 +1,288 @@
+* {
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #323E40;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width:479px){
+    .sin-lineas{
+        text-decoration:none;
+    }
+    nav{
+        background-color: #ffcc00 ;
+        padding: 10px;
+    }
+    span{ 
+        background-color: lightcyan;
+        color: #8f8989 ;
+        margin-left:6px;
+        padding: 20px;
+        width: 150px;
+        height: 20px;
+    }
+    span:hover{
+        border-style: dotted dashed solid double   
+    }
+    footer{
+        background-color: #f2f547;
+        color: black;
+    }
+    .img-f{
+        width: 40px;
+         }
+         .derecha{
+            margin-right: 30px;
+        }
+        .izquierda{
+            margin-left: 30px;
+        }
+    .fin-p{
+        text-align: center;
+    }
+    .logo{
+        width: 100px;
+    }
+    
+    
+     
+    #grid-area {
+        display: grid;
+        grid-template-areas:
+    
+        "menu"
+        "cabeza"
+        "contacto"
+        "pie"
+         ;
+       grid-template-columns: auto;
+       grid-template-rows: auto;
+       grid-column-gap: 5px;
+    }
+    
+    header {
+        grid-area: cabeza;
+        background-color: #f5f1b8;
+     }
+     footer {
+        grid-area: pie;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+     }
+    #contacto {
+        grid-area: contacto; 
+        display: flex;
+        flex-flow: row wrap;
+        justify-items: center;
+        background-color: #f5f1b8;
+     }
+     nav {
+        grid-area: menu;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+     }
+     .titulo-1{
+        margin-bottom: 45px;
+        font-size: 2rem
+    }
+    @font-face{
+        font-family: "montserrat";
+        src: url(./Montserrat_Alternates/MontserratAlternates-SemiBold.ttf);
+    }
+     h2, h3, p{
+        font-family: "montserrat";
+       }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width:1023px){
+    .sin-lineas{
+        text-decoration:none;
+    }
+    nav{
+        background-color: #ffcc00 ;
+        padding: 10px;
+    }
+    span{ 
+        background-color: lightcyan;
+        color: #8f8989 ;
+        margin-left:6px;
+        padding: 20px;
+        width: 150px;
+        height: 20px;
+    }
+    span:hover{
+        border-style: dotted dashed solid double   
+    }
+    footer{
+        background-color: #f2f547;
+        color: black;
+    }
+    .img-f{
+        width: 40px;
+         }
+         .derecha{
+            margin-right: 30px;
+        }
+        .izquierda{
+            margin-left: 30px;
+        }
+    .fin-p{
+        text-align: center;
+    }
+    .logo{
+        width: 100px;
+    }
+    
+    
+     
+    #grid-area {
+        display: grid;
+        grid-template-areas:
+    
+        "menu menu"
+        "cabeza cabeza"
+        "contacto contacto"
+        "pie pie"
+         ;
+       grid-template-columns: auto;
+       grid-template-rows: 2fr 3fr 3fr 1fr;
+       grid-column-gap: 5px;
+    }
+    
+    header {
+        grid-area: cabeza;
+        background-color: #f5f1b8;
+     }
+     footer {
+        grid-area: pie;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+     }
+    #contacto {
+        grid-area: contacto; 
+        display: flex;
+        flex-flow: row wrap;
+        justify-items: center;
+        background-color: #f5f1b8;
+     }
+     nav {
+        grid-area: menu;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+     }
+     .titulo-1{
+        margin-bottom: 45px;
+        font-size: 2rem
+    }
+    @font-face{
+        font-family: "montserrat";
+        src: url(./Montserrat_Alternates/MontserratAlternates-SemiBold.ttf);
+    }
+     h2, h3, p{
+        font-family: "montserrat";
+       }
+      
+}
+
+@media (min-width: 1024px){
+    .sin-lineas{
+        text-decoration:none;
+    }
+    nav{
+        background-color: #ffcc00 ;
+        padding: 10px;
+    }
+    span{ 
+        background-color: lightcyan;
+        color: #8f8989 ;
+        margin-left:6px;
+        padding: 20px;
+        width: 150px;
+        height: 20px;
+    }
+    span:hover{
+        border-style: dotted dashed solid double   
+    }
+    footer{
+        background-color: #f2f547;
+        color: black;
+    }
+    .img-f{
+        width: 40px;
+         }
+         .derecha{
+            margin-right: 30px;
+        }
+        .izquierda{
+            margin-left: 30px;
+        }
+    .fin-p{
+        text-align: center;
+    }
+    .logo{
+        width: 100px;
+    }
+    
+    
+     
+    #grid-area {
+        display: grid;
+        grid-template-areas:
+    
+        "menu menu menu"
+        "cabeza cabeza cabeza"
+        "contacto contacto contacto"
+        "pie pie pie"
+         ;
+       grid-template-columns: auto;
+       grid-template-rows: 2fr 3fr 3fr 1fr;
+       grid-column-gap: 5px;
+    }
+    
+    header {
+        grid-area: cabeza;
+        background-color: #f5f1b8;
+     }
+     footer {
+        grid-area: pie;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+     }
+    #contacto {
+        grid-area: contacto; 
+        display: flex;
+        flex-flow: row wrap;
+        justify-items: center;
+        background-color: #f5f1b8;
+     }
+     nav {
+        grid-area: menu;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+     }
+     .titulo-1{
+        margin-bottom: 45px;
+        font-size: 2rem
+    }
+    @font-face{
+        font-family: "montserrat";
+        src: url(./Montserrat_Alternates/MontserratAlternates-SemiBold.ttf);
+    }
+     h2, h3, p{
+        font-family: "montserrat";
+       }
+}
